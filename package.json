@@ -1,7 +1,8 @@
 {
   "private": true,
   "dependencies": {
-    "phaser": "^2.4.4"
+    "phaser": "^2.4.4",
+    "redux": "^3.3.1"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.4.3",

@@ -43,13 +43,7 @@ export default class Game extends Phaser.State {
     let key3 = this.input.keyboard.addKey(Phaser.Keyboard.ENTER);
     key3.onDown.add((function () {
       let pos = selector1.getCursorPos();
-      let letsgodude = [];
-      letsgodude[0] = 'Game2';
-      letsgodude[1] = 'Game';
-      letsgodude[2] = 'Game2';
-      letsgodude[3] = 'Preload';
-      letsgodude[4] = 'Boot';
-      console.log('Starting:', letsgodude[pos]);
+      let letsgodude = ['Game3','Game2','Game','Preload','Boot'];
       this.state.start(letsgodude[pos]);
     }), this);
     this.input.keyboard.removeKeyCapture(Phaser.Keyboard.ENTER);
